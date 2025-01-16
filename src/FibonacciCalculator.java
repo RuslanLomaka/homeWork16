@@ -16,8 +16,9 @@ public class FibonacciCalculator {
         };
     }
 
-
-
+    public int calculateDynamically(int n){
+        return n;
+    }
 
     private int iterate(int n) {
         int r = 0;    // r   stands for result
