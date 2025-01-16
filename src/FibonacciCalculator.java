@@ -39,6 +39,7 @@ class FibonacciCalculatorTest {
         for (int testInput = 0; testInput <= 10; testInput++) {
             System.out.println("\nfc.calculateRecursive(" + testInput + ") = " + fc.calculateRecursive(testInput));
             System.out.println("fc.calculateIterative(" + testInput + ") = " + fc.calculateIterative(testInput));
+            System.out.println("fc.calculateDynamically(" + testInput + ") = " + fc.calculateDynamically(testInput));
         }
     }
 }
